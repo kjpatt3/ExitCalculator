@@ -1,0 +1,40 @@
+body{
+    width: 900px;
+    height: 610px;
+    margin:35px auto;
+    font-family: 'Raleway', sans-serif;
+    background: radial-gradient(white, #626262);
+}
+input[type=number]{
+    width: 20%;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    color: #000000;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#calculate{
+    background-color: firebrick;
+    padding: 10px;
+    width: 20%;
+    font-size: 16px;
+    font-weight: bold;
+}
+#calculateDesired{
+    background-color: firebrick;
+    padding: 10px;
+    width: 20%;
+    font-size: 16px;
+    font-weight: bold;
+}
+h2{
+    display:inline-block;
+    padding: 2px;
+}
+.results{
+    visibility: hidden;
+    padding: 40px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <!-- Links to style sheet and javascript file -->
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="calculate.js"></script>
+</head>
+<body>
+<h1 class = title>Calculator</h1>
+<div class = option1 id = option1>
+    <div class = sale>
+        <h3>What is your Sale Price</h3>
+        <input type = number name = salePrice id = salePrice>
+    </div>
+    <div class = ownership>
+        <h3>What percentage of the company do you own?</h3>
+        <input type = number name = ownership id = own>
+    </div>
+    <br>
+    <button id = calculate onclick= calculate()>Calculate</button>
+</div>
+<div class = desired id = desired>
+    <div class = desiredIncome>
+        <h3>What is your desired Monthly Income?</h3>
+        <input type = number id = desiredMonthly>
+    </div>
+    <div class = ownership>
+        <h3>What percentage of the compnay do you own?</h3>
+        <input type = number id = ownershipPercent>
+        <br>
+        <button id = calculateDesired onclick= calculateDesired()>Calculate</button>
+        <br>
+    </div>
+</div>
+<div class = results id = results>
+    <div id = optionA>
+        <h1>Option A</h1>
+        <h2>$</h2><h2 id = option1Low></h2><h2>to</h2> <h2>$</h2><h2 id = option1High></h2>
+    </div>
+    <div id = optionB>
+        <h1>Option B</h1>
+        <h2>$</h2><h2 id = option2Low></h2><h2> to </h2><h2>$</h2><h2 id = option2High></h2>
+    </div>
+
+</div>
+</body>
+</html>
